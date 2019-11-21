@@ -1,0 +1,82 @@
+.container {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+}
+
+/* My name - top left */
+#newh1 {
+    color: #cccccc;
+    background: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 28px;
+    padding: 22px;
+    width: 265px;
+    background-color: #666666;
+    left: 20px;
+}
+
+/* 3 nav links on nav bar */
+.threeLinks {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #4aaaa5;
+    display: block;
+    border-right: 1px solid black;
+}
+
+li {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #4aaaa5;
+    display: block;
+}
+
+.navLinkBR {
+    border-right: 1px solid #cccccc;
+    line-height: 5px;
+}
+
+.portLink {
+    line-height: 5px;
+}
+
+
+/* Inner content under NavBar and above footer */
+.wrapper {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color:white;
+    color: #4aaaa5;
+    max-width: 960px;
+    margin: auto;
+}
+
+hr {
+    width: 95%;
+    position: relative;
+    top: -15px;
+}
+
+/* "About Me", "Contact", "Porfolio" */
+.newh2 {
+    left: 15px;
+    padding: 15px;
+    color: #cccccc;
+}
+
+.bioPic {
+    padding: 20px;
+    text-align: justify;
+    left:20px;
+    top: -35px;
+}
+
+p {    
+    margin: 10px;
+}
+
+.footy {
+
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    font-size: 12px;
+    color: tomato;
+    font-size: 12px;
+}
