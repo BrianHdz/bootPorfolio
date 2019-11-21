@@ -3,6 +3,11 @@
     
 }
 
+.navColor {
+    background-color: white;
+    height: 86px;
+}
+
 /* My name - top left */
 #newh1 {
     color: #cccccc;
@@ -63,18 +68,27 @@ hr {
 
 .bioPic {
     padding: 20px;
-    text-align: justify;
+    padding-bottom: 0px;
     left:20px;
     top: -35px;
 }
 
-p {    
-    margin: 10px;
+.card {
+    border: 0px;
+    float: left;
+}
+
+.pBody {
+    top: -20px;
+    left: 20px;
+    padding-right: 65px;
 }
 
 .footy {
-
+    position: absolute;
+    bottom: 0px;
     text-align: center;
+    margin-top: 10%;
     border-top: 8px solid #4aaaa5;
     font-size: 12px;
     color: tomato;
