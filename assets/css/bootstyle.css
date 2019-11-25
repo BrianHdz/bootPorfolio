@@ -1,25 +1,23 @@
 .container {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    
-    
+       
 }
 
 .navColor {
     background-color: #ffffff;
-    height: 86px;
     border: 1px solid #dddddd;
 }
 
 /* My name - top left */
-#newh1 {
-    color: #4aaaa5;
-    background: #ffffff;
+.newh1 {
+    color: #ffffff;
+    background: #4aaaa5;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 28px;
-    padding: 22px;
+    padding: 26px;
+    margin: auto;
     width: 265px;
     background-color: #666666;
-    left: 20px;
 }
 
 /* 3 nav links on nav bar */
@@ -27,7 +25,17 @@
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #4aaaa5;
     display: block;
-    border-right: 1px solid black;
+    border-right: 1px solid #4aaaa5;
+    line-height: 3px;
+    margin-top: 10px;
+}
+
+.portfolioLink {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #4aaaa5;
+    display: block;
+    line-height: 3px;
+    margin-top: 10px;
 }
 
 ul li {
@@ -102,16 +110,27 @@ button {
     border-radius: 6px;
     color: white;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.coolCards {
+    padding: 0px;
+}
+
+.daBanner {
+    background-color: #4aaaa5;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+}
 
 .footy {
     background-color: #666666!important;
-    position: absolute;
+    position: sticky;
     bottom: 0px;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 7%;
+    width: 100%;
     border-top: 8px solid #4aaaa5;
-    font-size: 12px;
-    color: tomato;
     font-size: 12px;
 }
 
