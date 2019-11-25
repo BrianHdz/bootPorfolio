@@ -70,6 +70,7 @@ hr {
     width: 95%;
     position: relative;
     top: -15px;
+    margin-bottom: 0px;
 }
 
 /* "About Me", "Contact", "Porfolio" */
@@ -128,10 +129,10 @@ button {
     position: sticky;
     bottom: 0px;
     text-align: center;
-    margin-top: 7%;
+    margin-top: 5%;
     width: 100%;
     border-top: 8px solid #4aaaa5;
-    font-size: 12px;
+    font-size: 8px;
 }
 
 #footie {
